@@ -1,0 +1,28 @@
+This was the license in the original source that was on stackoverflow.
+
+
+			/*
+			* Base64 encoding/decoding (RFC1341)
+			* Copyright (c) 2005-2011, Jouni Malinen <j@w1.fi>
+			*
+			* This software may be distributed under the terms of the BSD license.
+			* See README for more details.
+			*/
+			// 2016-12-12 - Gaspard Petit : Slightly modified to return a std::string 
+			// instead of a buffer allocated with malloc.
+
+			/**
+			* base64_encode - Base64 encode
+			* @src: Data to be encoded
+			* @len: Length of the data to be encoded
+			* @out_len: Pointer to output length variable, or %NULL if not used
+			* Returns: Allocated buffer of out_len bytes of encoded data,
+			* or empty string on failure
+			*/
+
+			// Polfosol's snippet from base64 decode snippet in c++
+			// https://stackoverflow.com/questions/180947/base64-decode-snippet-in-c/13935718
+
+			
+			
+For added additional code use BSD as well.
