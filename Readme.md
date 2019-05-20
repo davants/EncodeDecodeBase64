@@ -1,13 +1,8 @@
 <h4>C++ Encode Decode Base64 Project</h4> 
  
 
-This is a small project that contains Base64 Encode/Decode functionality and some notes. <br />
-The Encode/Decode logic was NOT written by Davant Stewart, only the client and a couple<br />
-of added wrapper functions. <br />
-I added the original coder’s license in the source and in the LICENSE.txt document.
-                                                                                                    <br />
-The client code has 2 examples, encoding and decoding a std::string and <br />
-encoding and decoding a binary blob.<br />
+This is a small project that contains Base64 Encode/Decode functionality and some notes.   <br />			  
+The client code has 2 examples, encoding and decoding a std::string and encoding and decoding a binary blob.<br />
 
 <h5>Why do we care about encoding things? </h5>
 Encoding is NOT encryption, anyone can decode it. 
@@ -22,4 +17,8 @@ that are not supported by some protocols. Unsafe characters like < > # %
 
 
  
-	
+<br />
+<h5>License</h5>
+The Encode/Decode logic was NOT written by Davant Stewart, only the client and a couple of added wrapper functions. <br />  
+I added the original coder’s license in the source and in the LICENSE.txt document.
+<br />	
